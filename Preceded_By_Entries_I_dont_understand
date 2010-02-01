@@ -1,0 +1,86 @@
+Some of the Entries that I don't understand:
+
+PRO_ID = 97180:
+  typehash[97180] = ["POLYGON", "POLYGON"]
+  predhash[97180] = ["90121", "97181"]
+  changereasonhash[97180] = ["jurisdiction area increased", "jurisdiction area increased"]
+  beginyearhash[97180] = ["592", "592"]
+
+(How could two different areas of jurisdiction simultaneously have
+ their areas of jurisdiction increase and become a single area of
+ jurisdiction?  My guess is that the reason should be the abolishment
+ of the old areas and the establishment of the single new area. Is that right?)
+-------------------------------------------------------
+PRO_ID = 97182:
+  typehash[97182] = ["POLYGON", "POLYGON"]
+  predhash[97182] = ["97158", "97183"]
+  changereasonhash[97182] = [nil, nil]
+  beginyearhash[97182] = ["589", "589"]
+(My guess: The "nil" (i.e. NULL) reason should have said "newly established".
+ Shouldn't the "reason" fields be non-null?)
+-------------------------------------------------------
+PRO_ID = 97184:
+  typehash[97184] = ["POLYGON"]
+  predhash[97184] = ["97194"]
+  changereasonhash[97184] = ["newly established"]
+  beginyearhash[97184] = ["257"]
+(Shouldn't this be either a renaming or an increase/decrease/change in the
+ area of jurisdiction?)
+-------------------------------------------------------
+PRO_ID = 97185:
+  typehash[97185] = ["POLYGON"]
+  predhash[97185] = ["97190"]
+  changereasonhash[97185] = ["newly established"]
+  beginyearhash[97185] = ["191"]
+-------------------------------------------------------
+PRO_ID = 97188:
+  typehash[97188] = ["POLYGON", "POLYGON"]
+  predhash[97188] = ["97645", "97187"]
+  changereasonhash[97188] = ["jurisdiction area increased", "jurisdiction area increased"]
+  beginyearhash[97188] = ["-112", "-112"]
+-------------------------------------------------------
+PRO_ID = 42390:
+  typehash[42390] = ["N/A"]
+  predhash[42390] = ["0"]
+  changereasonhash[42390] = [nil]
+  beginyearhash[42390] = ["432"]
+-------------------------------------------------------
+PRO_ID = 42391:
+  typehash[42391] = ["N/A"]
+  predhash[42391] = ["0"]
+  changereasonhash[42391] = [nil]
+  beginyearhash[42391] = ["439"]
+-------------------------------------------------------
+PRO_ID = 42392:
+  typehash[42392] = ["N/A"]
+  predhash[42392] = ["0"]
+  changereasonhash[42392] = [nil]
+  beginyearhash[42392] = ["439"]
+-------------------------------------------------------
+PRO_ID = 97187:
+  typehash[97187] = ["POLYGON", "POLYGON"]
+  predhash[97187] = ["97186", "97644"]
+  changereasonhash[97187] = ["jurisdiction area increased", "jurisdiction area increased"]
+  beginyearhash[97187] = ["-124", "-124"]
+-------------------------------------------------------
+PRO_ID = 97201:
+  typehash[97201] = ["POLYGON", "POLYGON", "POLYGON"]
+  predhash[97201] = ["97253", "97158", "97200"]
+  changereasonhash[97201] = [nil, nil, nil]
+  beginyearhash[97201] = ["589", "589", "589"]
+-------------------------------------------------------
+PRO_ID = 97205:
+  typehash[97205] = ["POLYGON", "POLYGON", "POLYGON", "POLYGON"]
+  predhash[97205] = ["97255", "97246", "97254", "97204"]
+  changereasonhash[97205] = ["jurisdiction area increased", "jurisdiction area increased", "jurisdiction area increased", "jurisdiction area increased"]
+  beginyearhash[97205] = ["625", "625", "625", "625"]
+-------------------------------------------------------
+PRO_ID = 97208:
+  typehash[97208] = ["POLYGON", "POLYGON", "POLYGON"]
+  predhash[97208] = ["97142", "97128", "97207"]
+  changereasonhash[97208] = ["jurisdiction area increased", "jurisdiction area increased", "jurisdiction area increased"]
+  beginyearhash[97208] = ["938", "938", "938"]
+-------------------------------------------------------
+
+(There are many more entries I don't understand.  So far by visual inspection
+ they appear to be of the same nature as the ones I already listed.)
