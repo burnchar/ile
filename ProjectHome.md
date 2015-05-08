@@ -1,0 +1,1 @@
+Intentionally Linked Entities is currently a research tool for testing new ideas in database development.
